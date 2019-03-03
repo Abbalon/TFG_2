@@ -1,15 +1,16 @@
-# user.crt.py
+# -*- code: utf-8 -*-
+# controller.goup
 
 # Define the blueprint: 'user', set its url prefix: app.url/auth
-from flask import Blueprint, render_template
+from flask import Blueprint, render_template, session
 
 from model import User, Group
 
-user_ctr = Blueprint('user', __name__, url_prefix='/user')
+group_ctr = Blueprint('group', __name__, url_prefix='/group')
 
 
-@user_ctr.route('/all', methods=['GET'])
-@user_ctr.route('/all/<int:page>', methods=['GET'])
+@group_ctr.route('/show', methods=['GET'])
+@group_ctr.route('/show/<int:page>', methods=['GET'])
 def show(page=1):
     """
         Muestra la información de 'users'
@@ -22,4 +23,5 @@ def show(page=1):
     return render_template('show.html',
                            title='Mostrando prueba de lista',
                            results=users,
-                           table='users')
+                           table='users',
+                           category=session['category'])
