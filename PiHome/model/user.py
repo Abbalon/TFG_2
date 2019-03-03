@@ -1,5 +1,7 @@
 # -*- code: utf-8 -*-
 # user.py
+from werkzeug.security import generate_password_hash, check_password_hash
+
 from PiHome import db
 from model import BaseDB
 

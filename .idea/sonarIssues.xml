@@ -18,7 +18,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../TFG/PiHome/home/controller.py">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/PiHome/controller/group.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/PiHome/controller/index.py">
           <value>
             <set />
           </value>
@@ -29,6 +39,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/PiHome/controller/user.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/PiHome/form/index.py">
           <value>
             <set />
           </value>
@@ -44,6 +59,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/PiHome/model/group.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/PiHome/model/index.py">
           <value>
             <set />
           </value>
